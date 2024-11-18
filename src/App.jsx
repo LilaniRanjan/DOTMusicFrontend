@@ -1,11 +1,9 @@
-import React from 'react'
+import Appbar from "./components/Appbar";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Appbar/>
+    </>
   )
 }
-
-export default App

@@ -9,7 +9,7 @@ const Appbar = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="w-6 h-6 text-gray-500 hover:text-blue-500 transition-colors duration-200"
+            className="w-10 h-10 text-gray-500 hover:text-blue-500 transition-colors duration-200"
           >
             <path
               fillRule="evenodd"
@@ -19,14 +19,14 @@ const Appbar = () => {
           </svg>
         </div>
         <div className='flex flex-row basis-1/2 justify-center items-center gap-4'>
-          <div className='rounded-full bg-white p-2'>
+          <div className='rounded-full bg-gray-700 p-2'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6 text-gray-700"
+              className="w-6 h-6 text-white"
             >
               <path
                 strokeLinecap="round"
@@ -39,14 +39,14 @@ const Appbar = () => {
             type='search'
             id='search'
             placeholder="Search songs, artists..."
-            className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-96 px-4 py-2 rounded-full border bg-gray-700 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
         <div className='flex flex-row basis-1/4 justify-end items-center'>
-          <div className='px-5 py-2 hover:text-gray-800 transition-colors duration-200 cursor-pointer'>
+          <div className='px-5 py-2 hover:text-gray-300 transition-colors duration-200 cursor-pointer'>
             Sign up
           </div>
-          <div className='px-5 rounded-full bg-white dark:text-black py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer'>
+          <div className='px-5 rounded-full bg-white dark:text-black py-2 text-gray-700 hover:bg-gray-300 transition-colors duration-200 cursor-pointer'>
             Log in
           </div>
         </div>

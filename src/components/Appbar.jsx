@@ -2,14 +2,14 @@ import React from 'react'
 
 const Appbar = () => {
   return (
-    <div className='py-4 px-8 dark:bg-black dark:text-white'>
+    <div className='py-3 px-8 dark:bg-black dark:text-white'>
       <nav className='flex flex-row'>
         <div className='basis-1/4'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="w-10 h-10 text-gray-500 hover:text-blue-500 transition-colors duration-200"
+            className="w-10 h-10 text-gray-500 hover:text-blue-500 duration-200 cursor-pointer"
           >
             <path
               fillRule="evenodd"
@@ -26,7 +26,7 @@ const Appbar = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6 text-white"
+              className="w-6 h-6 text-white transition-colors duration-200 cursor-pointer"
             >
               <path
                 strokeLinecap="round"
@@ -38,7 +38,7 @@ const Appbar = () => {
           <input
             type='search'
             id='search'
-            placeholder="Search songs, artists..."
+            placeholder="What do you want to play?"
             className="w-96 px-4 py-2 rounded-full border bg-gray-700 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>

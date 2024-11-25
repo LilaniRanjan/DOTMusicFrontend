@@ -1,11 +1,78 @@
-import Appbar from "./components/Appbar";
-import BodyLayout from "./components/bodyLayout";
+import { useEffect, useState } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+import PageTitle from "./components/PageTitle";
+import Loader from "./components/Loader";
+import Home from "./pages/Home/home";
+import NotFound from "./pages/NotFound404/NotFound404";
+import SignIn from "./pages/Authentication/signIn";
+import SignUp from "./pages/Authentication/SignUp";
+import ResetPassword from "./pages/Authentication/ResetPassword";
 
-export default function App() {
-  return (
+function App() {
+  const [loading, setLoading] = useState(true);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
+
+  return loading ? (
+    <Loader />
+  ) : (
     <>
-      <Appbar/>
-      <BodyLayout/>
+      <Routes>
+        <Route
+          index
+          element={
+            <>
+              <PageTitle title="Home | DOT Music" />
+              <Home />
+            </>
+          }
+        />
+        <Route
+          path="/signin"
+          element={
+            <>
+              <PageTitle title="SignIn | DOT Music" />
+              <SignIn />
+            </>
+          }
+        />
+        <Route
+          path="/signup"
+          element={
+            <>
+              <PageTitle title="SignUp | DOT Music" />
+              <SignUp />
+            </>
+          }
+        />
+        <Route
+          path="/reset-password"
+          element={
+            <>
+              <PageTitle title="Reset Password | DOT Music" />
+              <ResetPassword />
+            </>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <>
+              <PageTitle title="404 | DOT Music" />
+              <NotFound />
+            </>
+          }
+        />
+      </Routes>
     </>
-  )
+  );
 }
+
+export default App;

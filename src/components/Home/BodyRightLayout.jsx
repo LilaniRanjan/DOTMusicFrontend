@@ -277,7 +277,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Anirudh Ravichander</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -299,7 +298,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>DILU Beats</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -321,7 +319,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Dinesh Gamage</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -343,7 +340,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>AR. Rahman</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -365,7 +361,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Yuki Navaratne</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
             </div>
@@ -399,7 +394,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Anirudh Ravichander</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -421,7 +415,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>DILU Beats</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -443,7 +436,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Dinesh Gamage</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -465,7 +457,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>AR. Rahman</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -487,7 +478,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Yuki Navaratne</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
             </div>
@@ -521,7 +511,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Anirudh Ravichander</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -543,7 +532,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>DILU Beats</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -565,7 +553,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Dinesh Gamage</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -587,7 +574,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>AR. Rahman</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
 
@@ -609,7 +595,6 @@ export default class BodyRightLayout extends Component {
                     </svg>
                   </div>
                 </div>
-                <span className='text-base font-medium mt-2 self-start hover:underline hover:underline-offset-2'>Yuki Navaratne</span>
                 <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
               </div>
             </div>

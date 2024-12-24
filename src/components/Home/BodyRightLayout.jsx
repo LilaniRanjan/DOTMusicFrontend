@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import BottomRightLayout from './bottomRightLayout';
 
 export default class BodyRightLayout extends Component {
   render() {
     return (
       <>
-        <div className='mx-8 my-4'>
+        <div className='mx-8 my-4 mt-16'>
           <div className='mb-10'>
             {/* Header Section */}
             <span className='flex flex-row justify-between pb-4'>
@@ -599,6 +600,8 @@ export default class BodyRightLayout extends Component {
               </div>
             </div>
           </div>
+
+          <BottomRightLayout/>
         </div>
       </>
     );

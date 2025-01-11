@@ -44,7 +44,7 @@ export default class BottomRightLayout extends Component {
 
         <hr className="my-8 text-gray-400"/>
 
-        <div className='text-gray-400'>© 2024 Spotify AB</div>
+        <div className='text-gray-400'>© 2024 DOT AB</div>
       </>
     )
   }

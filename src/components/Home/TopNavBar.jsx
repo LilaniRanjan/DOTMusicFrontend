@@ -31,10 +31,10 @@ const TopNavBar = () => {
         {!token ? (
           <>
             <button className="px-4 py-2 rounded-md bg-gray-800 hover:bg-gray-700">
-              Sign Up
+              <a href="/signup">Sign Up</a>
             </button>
             <button className="px-4 py-2 rounded-md bg-orange-500 hover:bg-orange-600">
-              Log In
+            <a href="/signin">Log In</a>
             </button>
           </>
         ) : (

@@ -430,7 +430,7 @@ const BodyRightLayout = () => {
           <div className='mb-10'>
             {/* Header Section */}
             <span className='flex flex-row justify-between pb-4'>
-              <div className='text-2xl font-extrabold'>2024 Wrapped</div>
+              <div className='text-2xl font-extrabold'>Today in Music</div>
               <div className='text-sm font-bold cursor-pointer hover:underline'>Show all</div>
             </span>
 
@@ -455,7 +455,18 @@ const BodyRightLayout = () => {
                     </svg>
                   </div>
                 </div>
-                <span className='text-sm font-medium mt-1 self-start text-gray-400'>Artist</span>
+                <span 
+                  style={{
+                    display: '-webkit-box',
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: 'vertical',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                  }}
+                  className='text-sm font-medium mt-1 self-start text-gray-400'
+                >
+                  Artist
+                </span>
               </div>
 
               <div className='flex flex-col items-center hover:bg-slate-700 p-2 rounded-lg cursor-pointer'>

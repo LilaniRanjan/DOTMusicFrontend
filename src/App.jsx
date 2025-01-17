@@ -9,6 +9,7 @@ import SignUp from "./pages/Authentication/SignUp";
 import ResetPassword from "./pages/Authentication/ResetPassword";
 import Podcast from "./pages/podcast/Podcast";
 import Artists from "./pages/Artists/Artists";
+import Albums from "./pages/Albums/Albums";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -78,6 +79,15 @@ function App() {
             <>
               <PageTitle title="Artists | DOT Music" />
               <Artists/>
+            </>
+          }
+        />
+        <Route
+          path="/full-albums"
+          element={
+            <>
+              <PageTitle title="Album | DOT Music" />
+              <Albums/>
             </>
           }
         />

@@ -188,11 +188,11 @@ const BodyRightLayout = () => {
           <div className='mb-10'>
             {/* Header Section */}
             <span className='flex flex-row justify-between pb-4'>
-              <div className='text-2xl font-extrabold'>Popular albums and singles</div>
-              <div className='text-sm font-bold cursor-pointer hover:underline'>Show all</div>
+              <div className='text-2xl font-extrabold'>Popular albums</div>
+              <div className='text-sm font-bold cursor-pointer hover:underline'><a href='./full-albums'>Show all</a></div>
             </span>
 
-            {/* Artists Section */}
+            {/* Album Section */}
             <div className='grid grid-cols-5 gap-4'>
               {/* Artist Card */}
               {albums.map((album) => (

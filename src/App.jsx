@@ -10,6 +10,7 @@ import ResetPassword from "./pages/Authentication/ResetPassword";
 import Podcast from "./pages/podcast/Podcast";
 import Artists from "./pages/Artists/Artists";
 import Albums from "./pages/Albums/Albums";
+import Radios from "./pages/Radios/Radios";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -88,6 +89,15 @@ function App() {
             <>
               <PageTitle title="Album | DOT Music" />
               <Albums/>
+            </>
+          }
+        />
+        <Route
+          path="/full-radio"
+          element={
+            <>
+              <PageTitle title="Radios | DOT Music" />
+              <Radios/>
             </>
           }
         />

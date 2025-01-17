@@ -314,7 +314,7 @@ const BodyRightLayout = () => {
             {/* Header Section */}
             <span className='flex flex-row justify-between pb-4'>
               <div className='text-2xl font-extrabold'>Popular radio</div>
-              <div className='text-sm font-bold cursor-pointer hover:underline'>Show all</div>
+              <div className='text-sm font-bold cursor-pointer hover:underline'><a href='./full-radio'>Show all</a></div>
             </span>
             {/* Radio Section */}
             <div className='grid grid-cols-5 gap-4'>

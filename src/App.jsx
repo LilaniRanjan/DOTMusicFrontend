@@ -8,6 +8,7 @@ import SignIn from "./pages/Authentication/signIn";
 import SignUp from "./pages/Authentication/SignUp";
 import ResetPassword from "./pages/Authentication/ResetPassword";
 import Podcast from "./pages/podcast/Podcast";
+import Artists from "./pages/Artists/Artists";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -66,8 +67,17 @@ function App() {
           path="/bodcast"
           element={
             <>
-              <PageTitle title="Reset Password | DOT Music" />
+              <PageTitle title="Bodcast | DOT Music" />
               <Podcast/>
+            </>
+          }
+        />
+        <Route
+          path="/full-artists"
+          element={
+            <>
+              <PageTitle title="Artists | DOT Music" />
+              <Artists/>
             </>
           }
         />

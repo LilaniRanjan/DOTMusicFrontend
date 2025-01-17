@@ -50,7 +50,9 @@ const BodyRightLayout = () => {
             {/* Header Section */}
             <span className='flex flex-row justify-between pb-4'>
               <div className='text-2xl font-extrabold'>Popular artists</div>
-              <div className='text-sm font-bold cursor-pointer hover:underline'>Show all</div>
+              <div className='text-sm font-bold cursor-pointer hover:underline'>
+                <a href='./full-artists'>Show all</a>
+              </div>
             </span>
 
             {/* Artists Section */}

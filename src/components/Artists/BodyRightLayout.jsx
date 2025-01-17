@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import BottomRightLayout from '../Home/bottomRightLayout';
 
 const BodyRightLayout = () => {
   const [artists, setArtists] = useState([]);
@@ -59,6 +60,10 @@ const BodyRightLayout = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className='mx-8 my-4 mt-16'>
+        <BottomRightLayout/>
       </div>
     </div>
   );

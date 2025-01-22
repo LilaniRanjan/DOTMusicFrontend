@@ -11,6 +11,7 @@ import Podcast from "./pages/podcast/Podcast";
 import Artists from "./pages/Artists/Artists";
 import Albums from "./pages/Albums/Albums";
 import Radios from "./pages/Radios/Radios";
+import SingleSection from "./pages/SingleSection/SingleSection";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -98,6 +99,15 @@ function App() {
             <>
               <PageTitle title="Radios | DOT Music" />
               <Radios/>
+            </>
+          }
+        />
+        <Route
+          path="/SingleSection"
+          element={
+            <>
+              <PageTitle title="Radios | DOT Music" />
+              <SingleSection/>
             </>
           }
         />

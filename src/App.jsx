@@ -103,11 +103,11 @@ function App() {
           }
         />
         <Route
-          path="/SingleSection"
+          path="/SingleSection/:artistId" 
           element={
             <>
               <PageTitle title="Radios | DOT Music" />
-              <SingleSection/>
+              <SingleSection />
             </>
           }
         />

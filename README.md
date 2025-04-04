@@ -6,7 +6,7 @@
 
 ## About
 
-DOT-Music is a modern web-based music streaming service developed as a university project. Built with the latest web technologies, it offers a seamless music listening experience with a sleek, responsive interface and powerful features for music enthusiasts.
+DOT-Music is a modern web-based music streaming service developed as a university project. Built with the latest web technologies, it offers a seamless music listening experience with powerful features for music enthusiasts.
 
 ## Features
 
